@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AsegurateSeguros</string>
+    <string name="titulo_aplicacion">Ingrese Datos</string>
+    <string name="hint_patente">Ingrese Patente</string>
+    <string name="hint_ano">Ingrese año</string>
+    <string name="boton_consultar">Consultar</string>
+    <string name="hint_uf">Ingrese UF actual</string>
+    <string name="hint_marca">Ingrese marca</string>
+    <string name="hint_modelo">Ingrese modelo</string>
+    <string-array name="marca_array">
+
+        <item>Tesla</item>
+        <item>Mercedes Benz</item>
+        <item>Ferrari</item>
+        <item>Porshe</item>
+        <item>BMW</item>
+    </string-array>
+</resources>
