@@ -56,29 +56,31 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     }
 
     public void onClick(View view) {
+        //Validacion del año
 
         if(!this.checkAnoVehiculo(Integer.parseInt(ano.getText().toString()))){
-            Toast.makeText(this,"please enter something valid",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Año invalido",Toast.LENGTH_LONG).show();
             return;
         }
+        //Ayuda a que no se cayga el programa
         if(patente.getText().toString().equals(null) || patente.getText().toString().isEmpty())
         {
-            Toast.makeText(this,"please enter something in text box",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Ingrese Patente",Toast.LENGTH_LONG).show();
             return;
         }
         if(modelo.getText().toString().equals(null) || modelo.getText().toString().isEmpty())
         {
-            Toast.makeText(this,"please enter something in text box",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Ingrese Modelo",Toast.LENGTH_LONG).show();
             return;
         }
         if(uf.getText().toString().equals(null) || uf.getText().toString().isEmpty())
         {
-            Toast.makeText(this,"please enter something in text box",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Ingrese UF",Toast.LENGTH_LONG).show();
             return;
         }
         if(ano.getText().toString().equals(null) || ano.getText().toString().isEmpty())
         {
-            Toast.makeText(this,"please enter something in text box",Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Ingrese año ",Toast.LENGTH_LONG).show();
             return;
         }
 

@@ -24,7 +24,8 @@ public class ResultadoActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_resultado);
+        setContentView(
+                R.layout.activity_resultado);
 
         //Asociamos las variables de objeto con el elemento de la interfaz
 
